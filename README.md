@@ -19,5 +19,9 @@ ACATCACCAGCCTGGAGGTGATCAAGGCCGGACCCCACTGCCCCACTGCCCAACTGATAGCCACGCTGAAGAATGGAAGG
 AAAATTTGCTTGGACCTGCAAGCCCCGCTGTACAAGAAAATAATTAAGAAACTTTTGGAGAGTTAG</p>
 </p>2. Download the gene expression matrix from ( https://storage.googleapis.com/gtex_analysis_v8/rna_seq_data/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_median_tpm.gct.gz).</p>
 </p>3. Reference code:<br>
-python main.py -i intput.fasta -o result.csv -g GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_median_tpm.gct</p>
+python main.py -i intput.fasta -o result.csv -g GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_median_tpm.gct<br>
+-i: input file
+-o: output file
+-g: gene expression matirx file
+</p>
 
