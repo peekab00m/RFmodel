@@ -4,10 +4,10 @@
 The model utilizes both gene expression and DNA sequence features to predict the essentiality of human genes using a random-forest approach.
 
 #### Requirements
-1.python == 3.8
-2.sklearn == 0.24.1
-3.pandas == 1.2.4
-4.Bio == 1.79
+1.python == 3.8<br>
+2.sklearn == 0.24.1<br>
+3.pandas == 1.2.4<br>
+4.Bio == 1.79<br>
 
 #### How to run our code
 1.Please provide a fasta format file of your DNA sequence, with the gene symbol after '>' in the file.
