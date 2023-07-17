@@ -10,9 +10,9 @@ The model utilizes both gene expression and DNA sequence features to predict the
 4.Bio == 1.79<br>
 
 #### How to run our code
-</p>1.Please provide a fasta format file of your DNA sequence, with the gene symbol after '>' in the file.
-eg.
->PF4
+</p>1.Please provide a fasta format file of your DNA sequence, with the gene symbol after '>' in the file.<br>
+eg.<br>
+>PF4<br>
 ATGAGCTCCGCAGCCGGGTTCTGCGCCTCACGCCCCGGGCTGCTGTTCCTGGGGTTGCTGCTCCTGCCACTTGTGGTCGC
 CTTCGCCAGCGCTGAAGCTGAAGAAGATGGGGACCTGCAGTGCCTGTGTGTGAAGACCACCTCCCAGGTCCGTCCCAGGC
 ACATCACCAGCCTGGAGGTGATCAAGGCCGGACCCCACTGCCCCACTGCCCAACTGATAGCCACGCTGAAGAATGGAAGG
