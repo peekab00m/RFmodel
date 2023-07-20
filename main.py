@@ -113,6 +113,7 @@ def feature_seq(seq):
 def feature(samples_seq,gtex_file):
     #Loading Expression Matirx
     df_E = pd.read_csv(gtex_file,index_col=1,sep='\t',header=2)
+    df_rna = df_rna[~df_rna['Name'].str.endswith('_PAR_Y')]
     df_E = df_E.iloc[:,1:]
     #Generate sequence features
     gene_lists = []
