@@ -6,8 +6,8 @@ import argparse
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='This is a script for processing files.')
-    parser.add_argument('-i', '--input', type=str, default='examples/examples2.fasta')
-    parser.add_argument('-o', '--output', type=str, default='result/result2.csv')
+    parser.add_argument('-i', '--input', type=str, default='examples/examples.fasta')
+    parser.add_argument('-o', '--output', type=str, default='result/result.csv')
     args = parser.parse_args()
     input_file = args.input
     output_file = args.output
