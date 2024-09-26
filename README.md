@@ -19,7 +19,7 @@ ACATCACCAGCCTGGAGGTGATCAAGGCCGGACCCCACTGCCCCACTGCCCAACTGATAGCCACGCTGAAGAATGGAAGG
 AAAATTTGCTTGGACCTGCAAGCCCCGCTGTACAAGAAAATAATTAAGAAACTTTTGGAGAGTTAG</p>
 </p>
 </p>2. Run Run prediction code:<br>
-python predict.py -i examples/examples1.fasta -o result/result.csv <br>
+python predict.py -i examples/PSG.fasta -o result/result.csv <br>
 -i: input file<br>
 -o: output file<br>
 </p>
